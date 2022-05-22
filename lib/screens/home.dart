@@ -47,7 +47,7 @@ class _HomeScreenState extends State<HomeScreen> {
       key: Key(band.id),
       direction: DismissDirection.startToEnd,
       onDismissed: ( direction ){
-        print('Eliminar '+band.name);
+        print('Eliminar: '+band.name);
       },
       background: Container(
         padding: const EdgeInsets.all(8),
